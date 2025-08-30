@@ -18,7 +18,7 @@ export function ProjectsSection() {
     {
       title: "Sistema de Gestion ",
       description: "Se realizo un sistema de Gestion y facturacion para Optiservicios Velazquez.",
-      image: "{{/imagenes/odoo.png}}",
+      image: "{{'/imagenes/odoo.png'}}",
       technologies: ["Odoo"],
       liveUrl: "#",
       githubUrl: "#",

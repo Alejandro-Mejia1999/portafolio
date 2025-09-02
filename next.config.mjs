@@ -6,9 +6,18 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  images: {
-    unoptimized: true,
+   images: {
+    domains: ['localhost'], // para desarrollo
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**', // permite todas las imágenes externas
+      },
+    ],
+    unoptimized: true, // si usas imágenes estáticas
   },
+  trailingSlash: true,
+}
 }
 
 export default nextConfig

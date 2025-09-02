@@ -10,7 +10,7 @@ export function ProjectsSection() {
       title: "Data warehouse System",
       description:
         "sistema de centralizacion de datos haciendo",
-      image: "/imagenes/data.png",
+      image: "/data.png",
       technologies: ["Integration Services", "Analisis Services", "Reporting Services", "Power BI", "SQL Server","Oracle","Azure"],
       liveUrl: "#",
       githubUrl: "#",
@@ -18,7 +18,7 @@ export function ProjectsSection() {
     {
       title: "Sistema de Gestion ",
       description: "Se realizo un sistema de Gestion y facturacion para Optiservicios Velazquez.",
-      image: "/imagenes/odoo.png",
+      image: "/odoo.png",
       technologies: ["Odoo"],
       liveUrl: "#",
       githubUrl: "#",
@@ -26,7 +26,7 @@ export function ProjectsSection() {
     {
       title: "TLS-UNAH",
       description: "Sistema para la traduccion de lenguaje de señas como proyecto final de la Clase de Inteligencia Artificial.",
-      image: "/imagenes/tls.png",
+      image: "/tls.png",
       technologies: ["Python"],
       liveUrl: "https://despliegue-mtb6awhcdswflzkyxqjuzj.streamlit.app/",
       githubUrl: "https://github.com/Alejandro-Mejia1999/Despliegue.git",
